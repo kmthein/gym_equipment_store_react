@@ -98,7 +98,7 @@ const Header = (props) => {
                       src={cartLogo}
                       alt="cart-logo"
                       className="cart-logo" onClick={props.onShowCart}
-                    ></img>
+                    />
                     <span style={{ color: "#fff" }}>{numberOfCartItems}</span>
                   </ul>
                 </div>

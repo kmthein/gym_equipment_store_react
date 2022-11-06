@@ -7,8 +7,10 @@ const Contact = () => {
       <div className="home col-sm-12 col-10 contact">
       <div className="row">
         <div className="col-sm-10 col-xl-4 col-12 home-welcome">
+          <div className='contact-home'>
           <h2>Contact Us</h2>
           <p><Link to='/home'>Home</Link> / Contact</p>
+          </div>
         </div>
         <div className="homeImg col-sm-7 col-xl-4 col-12">
           <img src={homeImg} className="col-12 home-img" />
@@ -24,11 +26,11 @@ const Contact = () => {
             MANCHESTER, FL 2542<br/>
             HOMEGYMEQUIPMENT.HGEUK@GMAIL.COM</h3><br/><br/>
             <h2>CALL US NOW</h2><br/>
-            <h3>SALES: 1 855-289-1496 / 305 -501- 4614</h3><br/>
+            <h3>SALES: 1 855-289-1496 / 305 -501- 4614</h3>
             </div>
           </div>
           <div className="contact-3">
-            <h3>Contact Us Form</h3>
+            <h3>Contact Us <span>Form</span></h3>
             <form>
             <label for="form_fname">First Name</label>
             <input id="form_name" type="text" name="name" class="form-control" placeholder="Please Enter your first name" required="required" data-error="Firstname is required." />
@@ -40,11 +42,9 @@ const Contact = () => {
             <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone" />
             <label for="form_message"></label>
             <textarea id="form_message" class="textarea" rows="10" cols="40" name="message"  placeholder=" Description" required="required" data-error="Please,leave us a message."></textarea>
-            <div class="g-recaptcha" data-sitekey="6LeoyRAeAAAAAP8ZRWkVgQtH_fh_KywGJR2Hnm2h"></div><br/>                                    
             <input type="submit" name="ok" class="btn btn-secondary btn-send" value="Send message" />
     </form>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-          </div>
+      </div>
       </div>
     </div>
       );
