@@ -1,0 +1,352 @@
+$first-color: rgb(255, 255 ,255);
+$second-color: rgb(255, 115, 0);
+$third-color: rgb(0, 0, 0);
+
+body {
+    font-family: Helvetica, Roboto, Geneva, Verdana, sans-serif;
+    background: $first-color;
+}
+#Navbar {
+    li {
+    padding: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: $first-color;
+    }   
+    a:hover {
+        color: $second-color;
+    }
+}
+.main-logo {
+    max-height: 60px;
+}
+.nav {
+    background-color: $third-color;
+}
+.title {
+    font-size: 30px;
+    color: $first-color;
+}
+.input-search {
+    float: right;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-right: 4%;
+    border-color: #4b4b4b;
+}
+.load-gif {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 50%;
+    width: 400px;
+}
+.contact a {
+    color: #272727;
+}
+.contact a:hover {
+    text-decoration: none;
+    color: #9e5d5d;
+}
+.contact-1{
+    margin: 1rem;
+    padding: 2rem 2rem;
+    h1{
+        font-weight: 600;
+    }
+}
+.contact-2{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    margin-left: 10%;
+}
+.contact-3 {
+    margin: 1rem;
+    padding: 3rem 3rem;
+    margin-left: 10%;
+    h3 {
+        font-weight: 600;
+    }
+    label {
+        margin-top: 10px;
+        font-weight: 500;
+    }
+    input {
+        width: 50rem;
+    }
+    textarea {
+        margin-top: 3%;
+        width: 50rem;
+    }
+}
+.home-img:hover {
+    transform: translateY(-3%);
+}
+.home {
+    margin: 5% 0;
+    .home-welcome {
+        margin: 20% 0 0 10%;
+        h2 {
+            font-size: 50px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    .homeImg {
+        margin: 5% 0 0 100px;
+    }
+}
+.footer {
+    .col-lg-3 {
+        margin: 2% 0;
+    }
+    background-color: $third-color;
+    color: $first-color;
+    .col-4 {
+        p {
+            font-size: small;
+        }
+    }
+    h5 {
+        font-weight: 700;
+    }
+    .about {
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+    .logo_social {
+        margin-top: 2%;
+    }
+}
+.social-icon {
+    .fa {
+        padding: 5px;
+        font-size: 20px;
+        width: 30px;
+        text-align: center;
+        margin: 5px 10px;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+    .fa-facebook {
+        background-color: #3B5998;
+        color: $first-color;
+    }
+    .fa-twitter {
+        background-color: #55ACEE;
+        color: $first-color;
+    }
+    .fa-instagram {
+        background-color: #125688;
+        color: $first-color;
+    }
+    .fa-youtube {
+        background-color: #bb0000;
+        color: $first-color;
+    }
+}
+.product {
+    h2 {
+    margin-top: 120px;
+    margin-left: 3%;
+    font-size: 30px;
+    }
+    .row {
+        margin-top: 3%;
+    }
+    .col-4 {
+        padding: 10px;
+        background: #cccccc;
+        flex-basis: 20%;
+        box-sizing: border-box;
+        margin-bottom: 80px;
+        margin-left: 4%;
+        color: $third-color;
+        border-radius: 10px;
+        min-width: 300px;
+        transition: transform 0.5s;
+        img {
+            width: 100%;
+        }
+    }
+}
+.product-detail {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    h2 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+    }
+    li {
+        font-size: 18px;
+    }
+}
+#Navbar {
+    .dropdown {
+        a {
+            color:rgb(0, 0, 0);
+        }
+        a:hover {
+            color: $second-color;
+            cursor: pointer;
+        }
+    }
+    .dropdown-btn {
+        background-color: $third-color;
+        border: 0px solid black;
+        font-size: 17px;
+        margin-left: -10px;
+    }
+}
+.dropdown-btn:hover {
+    color: $second-color;
+}
+.no-data {
+    color: $third-color;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vh;
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.product-link {
+    color: $first-color;
+    :hover {
+        text-decoration: none;
+        transform: translateY(-4%);
+    }
+    img:hover {
+        transform: translateY(0%);
+    }
+}
+.cart-logo {
+    max-width: 40px;
+    height: 30px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.add-btn {
+    border-radius: 5px;
+    background: $third-color;
+    color: $first-color;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+.add-btn:hover {
+    background-color: #272727;
+    color: #ffffff;
+    border-color: #4b4b4b;
+}
+.cart-item {
+    li {
+        list-style: none;
+    }
+    max-height: 20rem;
+    overflow: scroll;
+}
+.cart-img {
+    width: 80px;
+}
+
+.total-amount {
+    display: flex;
+    justify-content: space-between;
+    span {
+        margin: 5px;
+        font-size: 20px;
+    }
+}
+.cart-actions {
+    float: right;
+    button {
+    margin: 5px 10px;
+    width: 5rem;
+    height: 2.5rem;
+    border-color: #aaaaaa;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+}
+.feedback {
+    color: red;
+}
+.form-invalid {
+    input {
+        border-color: #da6a6a;
+        background: #f8c4c4;
+    }
+}
+  
+  @keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+@media only screen and (max-width: 960px) {
+    .input-search {
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 9%;
+    }
+    .footer {
+        .logo_social {
+            margin-left: 30%;
+            margin-top: 0;
+        }
+        .about {
+            margin-top: 2%;
+        }
+    }
+    .product {
+        .row {
+            margin-top: 5%;
+        }
+        .col-4 {
+            margin-left: 10%;
+        }
+    }
+
+}
+@media only screen and (max-width: 500px) {
+    .home {
+        margin-top: 30%;
+        .homeImg {
+            margin-left: 5%;
+    }
+    }
+    .input-search {
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 17%;
+    }
+    .logo {
+        margin-left: 30%;
+    }
+    .footer {
+        .logo_social {
+            margin-left: 20%;
+        }
+    }  
+    .product {
+        .row {
+            margin-top: 10%;
+            margin-left: 5%;
+        }
+        h2 {
+            font-size: 30px;
+        }
+    }
+}
