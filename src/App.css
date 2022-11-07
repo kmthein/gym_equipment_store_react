@@ -1,6 +1,8 @@
 body {
   font-family: Helvetica, Roboto, Geneva, Verdana, sans-serif;
   background: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
 }
 
 #Navbar li {
@@ -326,6 +328,31 @@ body {
     transform: translateY(0);
   }
 }
+@media only screen and (max-width: 1370px) {
+  .product .row {
+    margin-top: 3%;
+  }
+  .product .col-4 {
+    padding: 10px;
+    background: #cccccc;
+    flex-basis: 20%;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+    margin-left: 4%;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    min-width: 200px;
+    transition: transform 0.5s;
+  }
+  
+  .product .col-4 img {
+    width: 100%;
+  }
+  .input-search {
+    margin-top: -30px;
+  }
+}
+
 @media only screen and (max-width: 960px) {
   .home-welcome h2 {
     text-align: center;
@@ -422,3 +449,4 @@ body {
     font-size: 12px;
   }
 }/*# sourceMappingURL=App.css.map */
+
