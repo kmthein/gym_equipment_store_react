@@ -43,7 +43,9 @@ const Header = (props) => {
             <NavbarBrand>
               <div className="col-lg-5 col-xl-1 col-md-3 col-sm-3 logo">
                 <img src={mainLogo} alt="logo" className="main-logo"/>
+                
               </div>
+              
             </NavbarBrand>
             <div className="d-none d-xl-block col-md-5 col-xl-4 ml-5 nav-name">
               <span className="title">HOME GYM EQUIPMENT</span>
@@ -94,19 +96,25 @@ const Header = (props) => {
                         </DropdownMenu>           
                       </UncontrolledDropdown>
                     </NavItem>
-                    <img
-                      src={cartLogo}
-                      alt="cart-logo"
-                      className="cart-logo" onClick={props.onShowCart}
-                    />
-                    <span style={{ color: "#fff" }}>{numberOfCartItems}</span>
+                    
                   </ul>
                 </div>
               </Nav>
             </Collapse>
+            <div className="cart">
+              <img
+                      src={cartLogo}
+                      alt="cart-logo"
+                      className="cart-logo" onClick={props.onShowCart}
+                    />
+                    <span className='cart-number' style={{ color: "#fff" }}>{numberOfCartItems}</span>
+            </div>
           </div>
+          
         </div>
+        
       </Navbar>
+      
 
       <Modal isOpen={regModalOpen} toggle={toggleRegModal}>
         <ModalBody>

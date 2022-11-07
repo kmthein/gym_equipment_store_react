@@ -64,6 +64,9 @@ body {
     text-decoration: none;
     color: #9e5d5d;
   }
+  .cart {
+    margin-right: 300px;
+  }
   
   .contact-1 {
     margin: 1rem;
@@ -197,7 +200,7 @@ body {
   .product .col-4 img {
     width: 100%;
   }
-  
+
   .product-detail {
     margin-top: 10%;
     margin-bottom: 10%;
@@ -336,6 +339,7 @@ body {
       transform: translateY(0);
     }
   }
+
   @media only screen and (max-width: 1370px) {
     .product .row {
       margin-top: 3%;
@@ -378,9 +382,9 @@ body {
     }
     .product .row {
       margin-top: 5%;
+      justify-content: center;
     }
     .product .col-4 {
-      margin-left: 10%;
       min-width: 300px;
     }
     .contact-3 {
@@ -401,6 +405,9 @@ body {
     .home {
       margin-top: 30%;
     }
+    .cart {
+        margin-right: 10px;
+    }
     .home .homeImg {
       margin-left: 5%;
     }
@@ -417,7 +424,14 @@ body {
     }
     .product .row {
       margin-top: 10%;
-      margin-left: 5%;
+    }
+    .home-welcome {
+        p {
+            text-align: center;
+        }
+        span {
+            display: none;
+        }
     }
     .product h2 {
       font-size: 30px;
@@ -456,5 +470,7 @@ body {
       margin-top: 32%;
       font-size: 12px;
     }
-  }/*# sourceMappingURL=App.css.map */
+  }
+  
+  /*# sourceMappingURL=App.css.map */
   

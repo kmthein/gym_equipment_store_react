@@ -64,6 +64,10 @@ body {
   color: #9e5d5d;
 }
 
+.cart {
+  margin-right: 300px;
+}
+
 .contact-1 {
   margin: 1rem;
   padding: 2rem 2rem;
@@ -407,9 +411,9 @@ body {
   }
   .product .row {
     margin-top: 5%;
+    justify-content: center;
   }
   .product .col-4 {
-    margin-left: 10%;
     min-width: 300px;
   }
   .contact-3 {
@@ -430,6 +434,9 @@ body {
   .home {
     margin-top: 30%;
   }
+  .cart {
+    margin-right: 10px;
+  }
   .home .homeImg {
     margin-left: 5%;
   }
@@ -446,7 +453,12 @@ body {
   }
   .product .row {
     margin-top: 10%;
-    margin-left: 5%;
+  }
+  .home-welcome p {
+    text-align: center;
+  }
+  .home-welcome span {
+    display: none;
   }
   .product h2 {
     font-size: 30px;
@@ -485,4 +497,5 @@ body {
     margin-top: 32%;
     font-size: 12px;
   }
-} /*# sourceMappingURL=App.css.map *//*# sourceMappingURL=App.css.map */
+}
+/*# sourceMappingURL=App.css.map *//*# sourceMappingURL=App.css.map */
