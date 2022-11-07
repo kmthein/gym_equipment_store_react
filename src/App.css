@@ -21,7 +21,7 @@ body {
 }
 
 .nav {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(68, 68, 68);
 }
 
 .title {
@@ -121,7 +121,7 @@ body {
 }
 
 .footer {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(68, 68, 68);
   color: rgb(255, 255, 255);
 }
 .footer .col-lg-3 {
@@ -213,8 +213,8 @@ body {
   cursor: pointer;
 }
 #Navbar .dropdown-btn {
-  background-color: rgb(0, 0, 0);
-  border: 0px solid black;
+  background-color: rgb(68, 68, 68);
+  border: 0px rgb(87, 86, 86);
   font-size: 17px;
   margin-left: -10px;
 }
