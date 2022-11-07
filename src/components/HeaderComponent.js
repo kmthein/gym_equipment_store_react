@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import { Nav, NavbarToggler, NavItem, Collapse, Navbar, NavbarBrand, Modal, ModalBody, DropdownMenu, DropdownItem, DropdownToggle, UncontrolledDropdown } from "reactstrap";
-import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import mainLogo from "../assets/images/logowhite.png";
 import { NavLink } from "react-router-dom";
@@ -8,6 +7,7 @@ import cartLogo from "../assets/images/cart.png";
 import CartContext from "../store/cart-content";
 import LoginForm from "./LoginForm";
 import RegisterForm from "./RegisterForm";
+import "../App.css";
 
 const Header = (props) => {
   const cartCtx = useContext(CartContext);
@@ -37,7 +37,7 @@ const Header = (props) => {
   return (
     <React.Fragment>
       <Navbar dark expand="lg">
-        <div className="container">
+        <div className="container head">
           <div className="row navbar fixed-top nav">
             <NavbarToggler onClick={toggleNav} />
             <NavbarBrand>

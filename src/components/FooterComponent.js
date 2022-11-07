@@ -12,7 +12,7 @@ const Footer = (props) => {
                 <p style={{ textAlign: 'center' }}>Home Gym Equipment is an online sales of second-hand good quality equipments. 
                 We're sharing knowledge about fitness. We can offer best services for you.</p>
             </div>
-            <div className='logo_social offset-xl-1'>
+            <div className='logo_social offset-xl-1 offset-lg-4'>
             <div className='col-lg-3 col-md-3 col-12 d-flex justify-content-center align-self-center'>
                 <a href=''><img src={mainLogo} alt='main-logo' /></a>
             </div>
